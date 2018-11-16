@@ -17,6 +17,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'dotenv-rails', '~> 2.4'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
+gem 'rack', '~> 2.0', '>= 2.0.6'
+gem 'loofah', '~> 2.2', '>= 2.2.3'
+gem 'rubyzip', '~> 1.2', '>= 1.2.2'
 
 group :development, :test do
   gem 'sqlite3'
